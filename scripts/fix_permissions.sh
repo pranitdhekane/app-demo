@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod +x /opt/codedeploy-agent/deployment-root/*/deployment-archive/scripts/*.sh
+sudo chmod +x /opt/codedeploy-agent/deployment-root/*/deployment-archive/scripts/*.sh
