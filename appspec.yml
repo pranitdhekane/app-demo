@@ -2,10 +2,6 @@ version: 0.0
 os: linux
 
 hooks:
-  BeforeInstall:
-    - location: scripts/prepare_env.sh
-      timeout: 60
-      runas: root
 
   ApplicationStop:
     - location: scripts/stop_container.sh
